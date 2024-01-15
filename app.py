@@ -1,6 +1,5 @@
 from flask import Flask, request, render_template
 import json, requests,time
-from PIL import Image
 
 # Creates an instance of the Flask class, which is the WSGI application.
 app = Flask(__name__)
